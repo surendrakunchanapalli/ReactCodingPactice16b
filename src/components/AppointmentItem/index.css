@@ -1,0 +1,63 @@
+/* Write your CSS here */
+.appointment-item {
+  list-style-type: none;
+  border: 1px solid #b5b7c4;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.title {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.star-button {
+  background-color: transparent;
+  padding: 0;
+  border: none;
+}
+
+.star {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  align-self: center;
+  border: none;
+}
+
+.date {
+  color: #7e858e;
+  font-family: 'roboto';
+  font-size: 12px;
+  margin: 0px;
+}
+
+.filter-filled {
+  color: white;
+  background-color: #9897f0;
+}
+
+.filter-empty {
+  color: #9897f0;
+  background-color: white;
+  border: 1px solid #9897f0;
+}
+
+.appointment-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0px;
+  margin-top: 24px;
+}
